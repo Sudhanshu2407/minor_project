@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 
 
-with open('C:\\Users\\Sudhanshu Sharma\\Downloads\\Breast-Cancer-Detection-App-master\\Breast-Cancer-Detection-App-master\\best_model.pkl', 'rb') as f:
+with open('best_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 
